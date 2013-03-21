@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB246B1616F36D84007DCA10 /* Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = AB246B1516F36D84007DCA10 /* Scale.m */; };
+		AB28D0EA16F4E80D0016CE7D /* TonePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AB28D0E916F4E80D0016CE7D /* TonePlayer.m */; };
+		AB28D0F116F4EF650016CE7D /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB28D0F016F4EF650016CE7D /* AudioUnit.framework */; };
+		AB7494CB16F17854001C8BF9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7494CA16F17854001C8BF9 /* AudioToolbox.framework */; };
+		ABD576B916EFD69D007ABB19 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD576B816EFD69D007ABB19 /* Cocoa.framework */; };
+		ABD576C316EFD69D007ABB19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABD576C116EFD69D007ABB19 /* InfoPlist.strings */; };
+		ABD576C516EFD69D007ABB19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD576C416EFD69D007ABB19 /* main.m */; };
+		ABD576C916EFD69D007ABB19 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = ABD576C716EFD69D007ABB19 /* Credits.rtf */; };
+		ABD576CC16EFD69D007ABB19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD576CB16EFD69D007ABB19 /* AppDelegate.m */; };
+		ABD576CF16EFD69D007ABB19 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABD576CD16EFD69D007ABB19 /* MainMenu.xib */; };
+		ABD576D716EFD69D007ABB19 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD576D616EFD69D007ABB19 /* SenTestingKit.framework */; };
+		ABD576D816EFD69D007ABB19 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD576B816EFD69D007ABB19 /* Cocoa.framework */; };
+		ABD576E016EFD69D007ABB19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABD576DE16EFD69D007ABB19 /* InfoPlist.strings */; };
+		ABD576E316EFD69D007ABB19 /* NoteGrindTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD576E216EFD69D007ABB19 /* NoteGrindTests.m */; };
+		ABD576EE16EFD9CD007ABB19 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD576ED16EFD9CD007ABB19 /* Note.m */; };
+		ABD576F116EFDBEB007ABB19 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD576F016EFDBEB007ABB19 /* Fraction.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABD576D916EFD69D007ABB19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABD576AD16EFD69D007ABB19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABD576B416EFD69D007ABB19;
+			remoteInfo = NoteGrind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB246B1416F36D84007DCA10 /* Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scale.h; sourceTree = "<group>"; };
+		AB246B1516F36D84007DCA10 /* Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scale.m; sourceTree = "<group>"; };
+		AB28D0E816F4E80D0016CE7D /* TonePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TonePlayer.h; sourceTree = "<group>"; };
+		AB28D0E916F4E80D0016CE7D /* TonePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TonePlayer.m; sourceTree = "<group>"; };
+		AB28D0EC16F4EE550016CE7D /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		AB28D0F016F4EF650016CE7D /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		AB7494C816F1719F001C8BF9 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		AB7494CA16F17854001C8BF9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		ABD576B516EFD69D007ABB19 /* NoteGrind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteGrind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD576B816EFD69D007ABB19 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		ABD576BB16EFD69D007ABB19 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		ABD576BC16EFD69D007ABB19 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ABD576BD16EFD69D007ABB19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABD576C016EFD69D007ABB19 /* NoteGrind-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NoteGrind-Info.plist"; sourceTree = "<group>"; };
+		ABD576C216EFD69D007ABB19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABD576C416EFD69D007ABB19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABD576C616EFD69D007ABB19 /* NoteGrind-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NoteGrind-Prefix.pch"; sourceTree = "<group>"; };
+		ABD576C816EFD69D007ABB19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		ABD576CA16EFD69D007ABB19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABD576CB16EFD69D007ABB19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABD576CE16EFD69D007ABB19 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ABD576D516EFD69D007ABB19 /* NoteGrindTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteGrindTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD576D616EFD69D007ABB19 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		ABD576DD16EFD69D007ABB19 /* NoteGrindTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NoteGrindTests-Info.plist"; sourceTree = "<group>"; };
+		ABD576DF16EFD69D007ABB19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABD576E116EFD69D007ABB19 /* NoteGrindTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoteGrindTests.h; sourceTree = "<group>"; };
+		ABD576E216EFD69D007ABB19 /* NoteGrindTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteGrindTests.m; sourceTree = "<group>"; };
+		ABD576EC16EFD9CD007ABB19 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		ABD576ED16EFD9CD007ABB19 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		ABD576EF16EFDBEB007ABB19 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		ABD576F016EFDBEB007ABB19 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABD576B216EFD69D007ABB19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB28D0F116F4EF650016CE7D /* AudioUnit.framework in Frameworks */,
+				ABD576B916EFD69D007ABB19 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD576D116EFD69D007ABB19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7494CB16F17854001C8BF9 /* AudioToolbox.framework in Frameworks */,
+				ABD576D716EFD69D007ABB19 /* SenTestingKit.framework in Frameworks */,
+				ABD576D816EFD69D007ABB19 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABD576AC16EFD69D007ABB19 = {
+			isa = PBXGroup;
+			children = (
+				AB28D0F016F4EF650016CE7D /* AudioUnit.framework */,
+				AB28D0EC16F4EE550016CE7D /* CoreAudioKit.framework */,
+				AB7494CA16F17854001C8BF9 /* AudioToolbox.framework */,
+				AB7494C816F1719F001C8BF9 /* CoreAudio.framework */,
+				ABD576BE16EFD69D007ABB19 /* NoteGrind */,
+				ABD576DB16EFD69D007ABB19 /* NoteGrindTests */,
+				ABD576B716EFD69D007ABB19 /* Frameworks */,
+				ABD576B616EFD69D007ABB19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABD576B616EFD69D007ABB19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABD576B516EFD69D007ABB19 /* NoteGrind.app */,
+				ABD576D516EFD69D007ABB19 /* NoteGrindTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABD576B716EFD69D007ABB19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABD576B816EFD69D007ABB19 /* Cocoa.framework */,
+				ABD576D616EFD69D007ABB19 /* SenTestingKit.framework */,
+				ABD576BA16EFD69D007ABB19 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABD576BA16EFD69D007ABB19 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABD576BB16EFD69D007ABB19 /* AppKit.framework */,
+				ABD576BC16EFD69D007ABB19 /* CoreData.framework */,
+				ABD576BD16EFD69D007ABB19 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		ABD576BE16EFD69D007ABB19 /* NoteGrind */ = {
+			isa = PBXGroup;
+			children = (
+				AB28D0E816F4E80D0016CE7D /* TonePlayer.h */,
+				AB28D0E916F4E80D0016CE7D /* TonePlayer.m */,
+				ABD576CA16EFD69D007ABB19 /* AppDelegate.h */,
+				ABD576CB16EFD69D007ABB19 /* AppDelegate.m */,
+				AB246B1416F36D84007DCA10 /* Scale.h */,
+				AB246B1516F36D84007DCA10 /* Scale.m */,
+				ABD576EF16EFDBEB007ABB19 /* Fraction.h */,
+				ABD576F016EFDBEB007ABB19 /* Fraction.m */,
+				ABD576EC16EFD9CD007ABB19 /* Note.h */,
+				ABD576ED16EFD9CD007ABB19 /* Note.m */,
+				ABD576CD16EFD69D007ABB19 /* MainMenu.xib */,
+				ABD576BF16EFD69D007ABB19 /* Supporting Files */,
+			);
+			path = NoteGrind;
+			sourceTree = "<group>";
+		};
+		ABD576BF16EFD69D007ABB19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABD576C016EFD69D007ABB19 /* NoteGrind-Info.plist */,
+				ABD576C116EFD69D007ABB19 /* InfoPlist.strings */,
+				ABD576C416EFD69D007ABB19 /* main.m */,
+				ABD576C616EFD69D007ABB19 /* NoteGrind-Prefix.pch */,
+				ABD576C716EFD69D007ABB19 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABD576DB16EFD69D007ABB19 /* NoteGrindTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABD576E116EFD69D007ABB19 /* NoteGrindTests.h */,
+				ABD576E216EFD69D007ABB19 /* NoteGrindTests.m */,
+				ABD576DC16EFD69D007ABB19 /* Supporting Files */,
+			);
+			path = NoteGrindTests;
+			sourceTree = "<group>";
+		};
+		ABD576DC16EFD69D007ABB19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABD576DD16EFD69D007ABB19 /* NoteGrindTests-Info.plist */,
+				ABD576DE16EFD69D007ABB19 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABD576B416EFD69D007ABB19 /* NoteGrind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD576E616EFD69D007ABB19 /* Build configuration list for PBXNativeTarget "NoteGrind" */;
+			buildPhases = (
+				ABD576B116EFD69D007ABB19 /* Sources */,
+				ABD576B216EFD69D007ABB19 /* Frameworks */,
+				ABD576B316EFD69D007ABB19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoteGrind;
+			productName = NoteGrind;
+			productReference = ABD576B516EFD69D007ABB19 /* NoteGrind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABD576D416EFD69D007ABB19 /* NoteGrindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD576E916EFD69D007ABB19 /* Build configuration list for PBXNativeTarget "NoteGrindTests" */;
+			buildPhases = (
+				ABD576D016EFD69D007ABB19 /* Sources */,
+				ABD576D116EFD69D007ABB19 /* Frameworks */,
+				ABD576D216EFD69D007ABB19 /* Resources */,
+				ABD576D316EFD69D007ABB19 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABD576DA16EFD69D007ABB19 /* PBXTargetDependency */,
+			);
+			name = NoteGrindTests;
+			productName = NoteGrindTests;
+			productReference = ABD576D516EFD69D007ABB19 /* NoteGrindTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABD576AD16EFD69D007ABB19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Benjamin Selfridge";
+			};
+			buildConfigurationList = ABD576B016EFD69D007ABB19 /* Build configuration list for PBXProject "NoteGrind" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABD576AC16EFD69D007ABB19;
+			productRefGroup = ABD576B616EFD69D007ABB19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABD576B416EFD69D007ABB19 /* NoteGrind */,
+				ABD576D416EFD69D007ABB19 /* NoteGrindTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABD576B316EFD69D007ABB19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD576C316EFD69D007ABB19 /* InfoPlist.strings in Resources */,
+				ABD576C916EFD69D007ABB19 /* Credits.rtf in Resources */,
+				ABD576CF16EFD69D007ABB19 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD576D216EFD69D007ABB19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD576E016EFD69D007ABB19 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ABD576D316EFD69D007ABB19 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABD576B116EFD69D007ABB19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD576C516EFD69D007ABB19 /* main.m in Sources */,
+				ABD576CC16EFD69D007ABB19 /* AppDelegate.m in Sources */,
+				ABD576EE16EFD9CD007ABB19 /* Note.m in Sources */,
+				ABD576F116EFDBEB007ABB19 /* Fraction.m in Sources */,
+				AB246B1616F36D84007DCA10 /* Scale.m in Sources */,
+				AB28D0EA16F4E80D0016CE7D /* TonePlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD576D016EFD69D007ABB19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD576E316EFD69D007ABB19 /* NoteGrindTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABD576DA16EFD69D007ABB19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABD576B416EFD69D007ABB19 /* NoteGrind */;
+			targetProxy = ABD576D916EFD69D007ABB19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABD576C116EFD69D007ABB19 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABD576C216EFD69D007ABB19 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABD576C716EFD69D007ABB19 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABD576C816EFD69D007ABB19 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		ABD576CD16EFD69D007ABB19 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABD576CE16EFD69D007ABB19 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		ABD576DE16EFD69D007ABB19 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABD576DF16EFD69D007ABB19 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABD576E416EFD69D007ABB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ABD576E516EFD69D007ABB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ABD576E716EFD69D007ABB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoteGrind/NoteGrind-Prefix.pch";
+				INFOPLIST_FILE = "NoteGrind/NoteGrind-Info.plist";
+				PRODUCT_NAME = NoteGrind;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABD576E816EFD69D007ABB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoteGrind/NoteGrind-Prefix.pch";
+				INFOPLIST_FILE = "NoteGrind/NoteGrind-Info.plist";
+				PRODUCT_NAME = NoteGrind;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ABD576EA16EFD69D007ABB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NoteGrind.app/Contents/MacOS/NoteGrind";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoteGrind/NoteGrind-Prefix.pch";
+				INFOPLIST_FILE = "NoteGrindTests/NoteGrindTests-Info.plist";
+				PRODUCT_NAME = NoteGrindTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		ABD576EB16EFD69D007ABB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NoteGrind.app/Contents/MacOS/NoteGrind";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoteGrind/NoteGrind-Prefix.pch";
+				INFOPLIST_FILE = "NoteGrindTests/NoteGrindTests-Info.plist";
+				PRODUCT_NAME = NoteGrindTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABD576B016EFD69D007ABB19 /* Build configuration list for PBXProject "NoteGrind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD576E416EFD69D007ABB19 /* Debug */,
+				ABD576E516EFD69D007ABB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD576E616EFD69D007ABB19 /* Build configuration list for PBXNativeTarget "NoteGrind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD576E716EFD69D007ABB19 /* Debug */,
+				ABD576E816EFD69D007ABB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD576E916EFD69D007ABB19 /* Build configuration list for PBXNativeTarget "NoteGrindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD576EA16EFD69D007ABB19 /* Debug */,
+				ABD576EB16EFD69D007ABB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABD576AD16EFD69D007ABB19 /* Project object */;
+}
